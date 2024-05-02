@@ -12,7 +12,7 @@ const Tools = () => {
         </div>
       </Link>
       <Link to={"/tools/artist_top_tracks"}>
-        <div className="w-[95vw] relative hover:contrast-125 transition-all h-40 rounded-md bg-[url('/src/assets/generateplaylist.jpg')] bg-cover border-2 border-white/50 flex justify-center items-center">
+        <div className="w-[95vw] relative hover:contrast-125 transition-all h-40 rounded-md bg-[url('/src/assets/toptracks.jpg')] bg-cover border-2 border-white/50 flex justify-center items-center">
           <h3 className="text-3xl font-bold text-white flex items-center"><TbPlaylist className="mt-2"/>Top Tracks</h3>
         </div>
       </Link>
