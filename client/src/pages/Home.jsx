@@ -37,13 +37,13 @@ const Home = () => {
         <span className="font-extrabold text-[#FFE500]">Musiverse</span>{" "}
       </h1>
       <p className="w-1/2 text-center  text-white opacity-75 font-extralight">
-        Generate playlist based on what you love
+        Groove based on your choice
       </p>
       <br />
       <Link to={"/tools/generate_playlist"}>
         {" "}
         <button className="bg-[#FF26C2] py-2 px-8 text-white rounded-3xl flex items-center gap-2 hover:bg-[#e217a8] hover:gap-3 transition-all">
-          Generate Now <FaArrowRightLong className="mt-1" />
+          Get Playlists <FaArrowRightLong className="mt-1" />
         </button>
       </Link>
     </div>

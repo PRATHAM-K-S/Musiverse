@@ -50,16 +50,16 @@ const GeneratePlaylistHome = () => {
 
   return (
     <div className="relative w-full h-[90vh] text-white overflow-y-auto">
-      <div className="border-2 border-white/5 h-[20vh] m-8 rounded-md filter backdrop-blur-2xl bg-white/5">
+      <div className="border-2 border-white/5 h-[20vh] m-8 rounded-md flex flex-col filter backdrop-blur-2xl bg-white/5">
         <select
           onChange={(e) => setgenre(e.currentTarget.value)}
-          className="bg-gray-700"
+          className="bg-transparent m-2 border rounded-md py-2 px-2 font-semibold focus:border-pink-700 transition-all"
           name=""
           id=""
         >
           {genres.map((genre) => {
             return (
-              <option key={genre} name="" id="">
+              <option className="bg-pink-200 text-pink-700" key={genre} name="" id="">
                 {genre}
               </option>
             );
@@ -67,7 +67,7 @@ const GeneratePlaylistHome = () => {
         </select>
         <br />
         <button
-          className="bg-gray-700  px-4 py-1 rounded-md"
+          className="bg-pink-600 hover:bg-pink-500 transition-all mx-2 px-4 py-1 rounded-2xl"
           onClick={handleclick}
         >
           Find

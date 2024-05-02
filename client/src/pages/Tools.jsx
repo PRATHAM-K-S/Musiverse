@@ -8,7 +8,7 @@ const Tools = () => {
     <div className="relative m-4 items-center flex flex-col gap-4">
       <Link to={"/tools/generate_playlist"}>
         <div className="w-[95vw] relative hover:contrast-125 transition-all h-40 rounded-md bg-[url('/src/assets/generateplaylist.jpg')] bg-cover border-2 border-white/50 flex justify-center items-center">
-          <h3 className="text-3xl font-bold text-white flex items-center"><TbPlaylist className="mt-2"/>Generate Playlists</h3>
+          <h3 className="text-3xl font-bold text-white flex items-center"><TbPlaylist className="mt-2"/>Get Playlists</h3>
         </div>
       </Link>
       <Link to={"/tools/artist_top_tracks"}>

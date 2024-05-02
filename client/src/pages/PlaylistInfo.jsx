@@ -49,7 +49,7 @@ const PlaylistInfo = () => {
             {playlistname.playlistname}
           </h3>
           <div className="bg-[#ff26c2] flex justify-center text-sm items-center h-8 ml-[5vw] w-40 rounded-md mb-2">
-            <Link to={"/tools/generate_playlist/"}>Generate new playlist</Link>
+            <Link to={"/tools/generate_playlist/"}>Get new playlist</Link>
           </div>
         </div>
       </div>
